@@ -11,7 +11,6 @@ use Symfony\Component\HttpFoundation\Request;
  */
 class HealthCheckActionTest extends WebTestCase
 {
-
     /**
      * @return void
      */
