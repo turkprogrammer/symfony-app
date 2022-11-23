@@ -8,8 +8,17 @@ use App\Shared\Domain\Service\UlidService;
 
 class User
 {
+    /**
+     * @var string
+     */
     private string $ulid;
+    /**
+     * @var string
+     */
     private string $email;
+    /**
+     * @var string
+     */
     private string $password;
 
     /**
